@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SQLite Login Signup</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+
 </resources>
