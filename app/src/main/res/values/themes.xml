@@ -11,6 +11,21 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
         <!-- Customize your theme here. -->
     </style>
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="Edittext" parent="parent">
+        <item name="android:textSize">@dimen/Edittext_size</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="boxStrokeColor">@color/hint_color</item>
+
+
+    </style>
+
 </resources>
