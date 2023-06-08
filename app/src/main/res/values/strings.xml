@@ -8,6 +8,8 @@
     <string name="Signup_bottom">Don\'t have account?Sign Up</string>
     <string name="Signup">Signup</string>
     <string name="register">Register</string>
+    <string name="login">login</string>
+    <string name="username">Username</string>
 
 
 
