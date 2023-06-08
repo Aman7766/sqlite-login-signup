@@ -22,35 +22,46 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/name"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/name">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
+                        android:background="@color/white"
                         android:layout_height="wrap_content"/>
                 </com.google.android.material.textfield.TextInputLayout>
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/mob"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/name"
+
                     android:hint="@string/mobile">
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
+                        android:background="@color/white"
                         android:layout_height="wrap_content" />
 
                 </com.google.android.material.textfield.TextInputLayout>
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
+
                     android:layout_height="wrap_content"
                     android:id="@+id/email"
-                    android:layout_below="@+id/mob"
+
                     android:hint="@string/email">
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
+                        android:background="@color/white"
                         android:layout_height="wrap_content" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -58,24 +69,31 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/pass"
-                    android:layout_below="@+id/email"
+
                     android:hint="@string/password">
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
+                        android:background="@color/white"
                         android:layout_height="wrap_content" />
                 </com.google.android.material.textfield.TextInputLayout>
+
+
       <com.google.android.material.button.MaterialButton
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
+          android:layout_width="180dp"
+          android:layout_height="45dp"
           android:text="@string/Signup"
-          android:textAllCaps="true">
+          android:textAllCaps="true"
+          android:background="@drawable/button_shape"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="10dp">
 
       </com.google.android.material.button.MaterialButton>
 
            <TextView
+               android:layout_marginTop="10dp"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="@string/Singup_bottom"
+               android:text="@string/Signup_bottom"
                android:gravity="center">
 
            </TextView>
