@@ -3,7 +3,7 @@
 
 
     <item android:color="@color/blue" android:state_focused="true"/>
-    <item android:color="#7C7C7C"/>
+    <item android:color="@color/blue"/>
 
 
 

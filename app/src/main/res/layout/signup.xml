@@ -37,7 +37,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:gravity="center_horizontal"
-                    android:text="@string/"
+                    android:text="@string/register"
                     android:textAllCaps="true"
                     android:textColor="@color/blue"
                     android:textSize="20sp"
@@ -117,7 +117,8 @@
                     android:layout_marginTop="20dp"
                     android:padding="10dp"
                     android:gravity="center"
-                    android:text="@string/Signup_bottom"
+                    android:id="@+id/signup_bottom"
+                    android:text="@string/Signup_bottom_1"
                     android:textColor="@color/blue">
 
                 </TextView>
