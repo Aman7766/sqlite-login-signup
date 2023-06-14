@@ -88,10 +88,10 @@ public class SignupActivity extends AppCompatActivity {
             nameLayout.setError("Name too long");
             return false;
         }
-//        else if (!val.matches("[a-zA-Z]")) {
-//            nameLayout.setError("Invalid name");
-//            return false;
-      //  }
+        else if (!val.matches("[a-zA-Z]+")) {
+            nameLayout.setError("Invalid name");
+            return false;
+        }
         else {
             nameLayout.setError(null);
             nameLayout.setErrorEnabled(false);
